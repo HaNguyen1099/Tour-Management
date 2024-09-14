@@ -1,6 +1,5 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/database";
-import { scheduler } from "timers/promises";
 
 const Tour = sequelize.define("Tour", {
     id: {
